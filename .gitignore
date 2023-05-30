@@ -1,0 +1,42 @@
+# Ignore backend files
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.sqlite3
+/backend/venv/
+
+# Ignore frontend build output
+/frontend/build/
+/frontend/dist/
+
+# Ignore environment variables
+/backend/.env
+/frontend/.env
+
+# Ignore IDE and editor files
+/backend/.vscode/
+/frontend/.vscode/
+/backend/.idea/
+/frontend/.idea/
+/backend/*.sublime-*
+/frontend/*.sublime-*
+/backend/*.swp
+/frontend/*.swp
+
+# Ignore dependency lock files
+/backend/package-lock.json
+/frontend/package-lock.json
+/backend/yarn.lock
+/frontend/yarn.lock
+
+# Ignore backend logs
+/backend/*.log
+
+# Ignore miscellaneous temporary files
+/backend/*.bak
+/frontend/*.bak
+/backend/*.tmp
+/frontend/*.tmp
+
+# Ignore macOS specific files
+.DS_Store

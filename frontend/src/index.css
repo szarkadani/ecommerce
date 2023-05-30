@@ -1,0 +1,33 @@
+
+main{
+    min-height: 85vh;
+}
+h1{
+    font-size: 1.8rem;
+    padding:1rem 0;
+}
+h2{
+    font-size: 1.4rem;
+    padding:0.5rem 0;
+}
+
+h3{
+    padding: 1rem 0;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+.cart-badge {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+
