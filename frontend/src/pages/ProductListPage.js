@@ -21,8 +21,11 @@ function ProductListPage() {
   }, [category, dispatch]);
 
   const filteredProducts = category
-    ? products.filter((product) => product.category === category)
-    : products;
+    ? products.filter(
+        (product) =>
+          product.category === category && product.category !== "wishlist"
+      )
+    : products.filter((product) => product.category !== "wishlist");
 
   return (
     <div>
