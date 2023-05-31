@@ -2,7 +2,6 @@
 /backend/__pycache__/
 /backend/*.pyc
 /backend/*.pyo
-/backend/*.sqlite3
 /backend/venv/
 
 # Ignore frontend build output

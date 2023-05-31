@@ -1,11 +1,5 @@
-# Ignore Django static files
-/staticfiles/
-
 # Ignore Django media files
 /media/
 
 # Ignore Django secret key
 /secret_key.txt
-
-# Ignore Django database file
-/db.sqlite3
